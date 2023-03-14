@@ -19,6 +19,12 @@ public class MainClass {
 		Employee emp=new Employee(1,"Tulasha",5555);
 		session.save(emp);
 		
+		Employee emp2=new Employee(2,"Tila",1234);
+		session.save(emp2);
+		
+		Employee emp3=new Employee(8,"Ram",3456);
+		session.save(emp3);
+		
 		//------------    
         session.getTransaction().commit();
         session.close();
