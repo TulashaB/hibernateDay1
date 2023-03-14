@@ -28,8 +28,6 @@ public class MainClass {
 		Employee emp4=new Employee(12,"Gopal",2222);
 		session.save(emp4);
 		
-		Employee emp5=new Employee(11,"Maya",1212);
-		session.save(emp5);
 		
 		//------------    
         session.getTransaction().commit();
