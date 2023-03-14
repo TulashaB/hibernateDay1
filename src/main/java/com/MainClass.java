@@ -22,12 +22,11 @@ public class MainClass {
 		Employee emp2=new Employee(2,"Tila",1234);
 		session.save(emp2);
 		
-		Employee emp3=new Employee(8,"Ram",3456);
-		session.save(emp3);
-		
 		Employee emp4=new Employee(12,"Gopal",2222);
 		session.save(emp4);
 		
+		Employee emp5=new Employee(11,"Sarita",8888);
+		session.save(emp5);
 		
 		//------------    
         session.getTransaction().commit();
